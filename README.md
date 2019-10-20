@@ -6,7 +6,7 @@ pkg update && pkg upgrad
 apt-get install git
 apt-get install php
 git clone https://github.com/thesixtynine/Spamgrab
-cd Spamgra
+cd Spamgrab
 ls
 php grab.php
 ```
