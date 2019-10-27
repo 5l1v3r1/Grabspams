@@ -1,6 +1,7 @@
 <?php
 system('clear');
 system('reset');
+sleep(1);
 function get() {
     return trim(fgets(STDIN));
 }
@@ -40,8 +41,6 @@ class prankcall {
         curl_close($ch);
         $ekse = json_decode($x, true);
         if (empty($ekse['challengeID'])) {
-            echo "
-";
             echo "
 ";
             echo "\033[0m[\033[1;31m!\033[0m] \033[1;77mExit The Program";
@@ -103,18 +102,18 @@ class prankcall {
     }
     public function run() {
         while (true) {
-            echo "\033[0m[\033[1;35m?\033[0m] \033[1;77mWant to continue spam ? \033[0m[Y/T] \033[1;77m : ";
+            echo "\033[0m[\033[1;35m?\033[0m] \033[1;77mWant to continue spam ? \033[0m[Y/T]\033[1;77m : ";
             $loop = $this->get();
             if ($loop == "y" OR $loop == "t") {
                 break;
             } else {
-                echo "\033[1;77mIf yes answer [Y] If not answer [T]
+                echo "\033[0mIf yes answer [Y] If not answer [T]
 ";
                 continue;
             }
         }
         if ($loop == "y") {
-            echo "\033[0m[\033[0m\033[1;36m/\033[0m] \033[1;77mThe amount of spam\033[1;77m : ";
+            echo "\033[0m[\033[0m\033[1;36m/\033[0m] \033[1;77mThe amount of spam\033[0m : ";
             $many = $this->get();
             $this->loop($many);
         } else {
@@ -122,7 +121,7 @@ class prankcall {
         }
     }
 }
-echo "\033[36;3m
+echo "\033[32m
 ";
 echo "
 ";
@@ -137,12 +136,12 @@ echo "
 ";
 echo "
 ";
-echo "\033[0m[\033[0m\033[1;34m#\033[0m] Function: Spam Call
+echo "\033[0m[\033[0m\033[1;34m#\033[0m] Coded by Nedi Senja
 ";
-echo "\033[0m[\033[0m\033[1;33m*\033[0m] Recode By Nedi
-
+echo "\033[0m[\033[0m\033[1;33m*\033[0m] Function Spam Call Limited
 ";
-
+echo "
+";
 echo "\033[0m[\033[1;32m+\033[0m] \033[1;77mEnter the target\033[0m : ";
 $no = get();
 $n = new prankCall($no);
