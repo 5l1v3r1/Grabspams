@@ -1,8 +1,8 @@
 # Spamgarb
-![](./Images/Grab.png)
+![](./Images/Screenshot.png)
 # Usage
 ```
-pkg update && pkg upgrad
+pkg update && pkg upgrade
 apt-get install git
 apt-get install php
 git clone https://github.com/thesixtynine/Spamgrab
