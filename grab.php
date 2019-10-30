@@ -131,14 +131,17 @@ echo ".             ██████╗ ██████╗  █████
              ██║   ██║██╔══██╗██╔══██║██╔══██╗
              ╚██████╔╝██║  ██║██║  ██║██████╔╝
               ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝
+\033[0;4;37m  ○● 千尺丨乇几ᗪ丂 ㄒ卄乇 Ꮆ尺卂ㄚ 卄卂ㄒ 爪ㄚ ㄒ乇卂爪 ●○
 ";
 echo "
 ";
 echo "
 ";
-echo "\033[0m[\033[0m\033[1;34m#\033[0m] Coded by Nedi Senja
+echo "\033[0m[\033[0m\033[1;34m#\033[0m] Function Spam Call Unlimited
 ";
-echo "\033[0m[\033[0m\033[1;33m*\033[0m] Function Spam Call Limited
+echo "\033[0m[\033[0m\033[1;33m*\033[0m] Coded by Senja
+";
+echo "\033[0m[\033[0m\033[1;36m&\033[0m] My Github: @thesixtynine
 ";
 echo "
 ";
