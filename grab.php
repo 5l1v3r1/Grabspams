@@ -43,7 +43,7 @@ class prankcall {
         if (empty($ekse['challengeID'])) {
             echo "
 ";
-            echo "\033[0m[\033[1;31m!\033[0m] \033[1;77mExit The Program";
+            echo "\033[0m[\033[1;31m!\033[0m] \033[1;77mExit the program!";
             echo "
 ";
             echo "
@@ -102,7 +102,7 @@ class prankcall {
     }
     public function run() {
         while (true) {
-            echo "\033[0m[\033[1;35m?\033[0m] \033[1;77mWant to continue spam ? \033[0m[Y/T]\033[1;77m : ";
+            echo "\033[0m[\033[1;35m?\033[0m] \033[1;77mWant to continue spam ? \033[0m[Y/T]: \033[1;77m";
             $loop = $this->get();
             if ($loop == "y" OR $loop == "t") {
                 break;
@@ -113,7 +113,7 @@ class prankcall {
             }
         }
         if ($loop == "y") {
-            echo "\033[0m[\033[0m\033[1;36m/\033[0m] \033[1;77mThe amount of spam\033[0m : ";
+            echo "\033[0m[\033[0m\033[1;33m/\033[0m] \033[1;77mThe amount of spam: \033[0m";
             $many = $this->get();
             $this->loop($many);
         } else {
@@ -121,20 +121,18 @@ class prankcall {
         }
     }
 }
-echo "\033[32m
-";
-echo "
-";
-echo ".             ██████╗ ██████╗  █████╗ ██████╗
-             ██╔════╝ ██╔══██╗██╔══██╗██╔══██╗
-             ██║  ███╗██████╔╝███████║██████╔╝
-             ██║   ██║██╔══██╗██╔══██║██╔══██╗
-             ╚██████╔╝██║  ██║██║  ██║██████╔╝
-              ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝
-\033[0;4;37m  ○● 千尺丨乇几ᗪ丂 ㄒ卄乇 Ꮆ尺卂ㄚ 卄卂ㄒ 爪ㄚ ㄒ乇卂爪 ●○
-";
-echo "
-";
+echo '
+
+            .d8888b.                  888
+           d88P  Y88b                 888
+           888    888                 888
+           888        888d888 8888b.  88888b.
+           888  88888 888P"      "88b 888 "88b
+           888    888 888    .d888888 888  888
+           Y88b  d88P 888    888  888 888 d88P
+            "Y8888P88 888    "Y888888 88888P"
+
+';
 echo "
 ";
 echo "\033[0m[\033[0m\033[1;34m#\033[0m] Function Spam Call Unlimited
@@ -143,9 +141,10 @@ echo "\033[0m[\033[0m\033[1;33m*\033[0m] Coded by Senja
 ";
 echo "\033[0m[\033[0m\033[1;36m&\033[0m] My Github: @thesixtynine
 ";
+sleep(1);
 echo "
 ";
-echo "\033[0m[\033[1;32m+\033[0m] \033[1;77mEnter the target\033[0m : ";
+echo "\033[0m[\033[1;32m+\033[0m] \033[1;77mEnter the target: \033[0m";
 $no = get();
 $n = new prankCall($no);
 $n->run();
