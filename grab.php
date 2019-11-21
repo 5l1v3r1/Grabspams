@@ -139,7 +139,7 @@ echo "\033[0m[\033[0m\033[1;34m#\033[0m] Function Spam Call Unlimited
 ";
 echo "\033[0m[\033[0m\033[1;33m*\033[0m] Coded by Senja
 ";
-echo "\033[0m[\033[0m\033[1;36m&\033[0m] My Github: @thesixtynine
+echo "\033[0m[\033[0m\033[1;36m&\033[0m] My Github: @thedarksec
 ";
 sleep(1);
 echo "
