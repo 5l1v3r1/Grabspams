@@ -1,10 +1,10 @@
 #### Screenshot:
-![](./Screenshot.png)
+![](./Skrinsut.png)
 #### Cara Menginstall:
 ```
 pkg update && pkg upgrade
 apt-get install git
-apt-get install python3
+apt-get install python
 apt-get install php
 git clone https://github.com/stepbystepexe/Grabspams
 cd Grabspams
