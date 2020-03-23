@@ -1,5 +1,5 @@
 # Grabspams:
-*Grab merupakan salah satu tool spam*
+Grab merupakan salah satu tool spam
 #### Screenshot:
 ![](./Skrinsut.png)
 #### Cara Menginstall:
