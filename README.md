@@ -51,7 +51,7 @@ NB          : Manusia gax ada yang sempurna
 ### Installisasi:
 ```text
 git clone https://github.com/stepbystepexe/Grabspams
-cd Ddosattack
+cd Grabspams
 ls
 chmod +x
 ./grabspams.py
