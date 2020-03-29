@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://www.php.net">
-    <img src="https://img.shields.io/badge/Language-PHP-violetblue.svg">
+    <img src="https://img.shields.io/badge/Language-PHP-blueviolet.svg">
   </a>
   <a href="https://github.com/stepbystepexe/Grabspams/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-GPL%203-red.svg">
